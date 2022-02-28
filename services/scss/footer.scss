@@ -1,0 +1,110 @@
+.footer {
+    background: #F5F5FA;
+}
+
+.footer__contacts {
+    padding: 30px 0;
+}
+
+.footer__contacts__adress {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.footer__contacts__adress__map {
+    display: flex;
+    align-items: center;
+    :hover {
+        color: #24A3FF;
+    }
+}
+
+.footer__contacts__adress__map__city {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #323264;
+}
+
+.footer__contacts__adress__map__location {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24A3FF;
+    padding: 3px 0;
+}
+
+.map__hover:hover {
+    a {
+        color: #0b6cb1;
+    }
+}
+
+.footer__contacts__adress__company {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #B3B3BA;
+}
+
+.company__hover:hover {
+    a {
+        color: #0b6cb1;
+    }
+}
+
+.footer__contacts__links {
+    display: flex;
+    align-items: center;
+    img {
+        margin: 0 10px;
+    }
+    a {
+        img {
+            margin: 0;
+        }
+    }
+}
+
+.footer__contacts__links{
+    .footer__contacts__links__number:hover {
+        color: #24A3FF;
+    }
+    .footer__contacts__links__email:hover {
+        color: #0b6cb1;
+    }
+}
+
+.footer__contacts__links__number {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #46466E;
+}
+
+.footer__contacts__links__email {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24A3FF;
+}
+
+.footer__contacts__adress__map img {
+    margin: 0 10px;
+}

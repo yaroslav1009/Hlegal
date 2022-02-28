@@ -1,0 +1,478 @@
+@media (min-width: 1920px) {
+    .fix-size {
+        max-width: 1600px;
+    }
+    .header__consistent__row__text {
+        width: 861px;
+    }
+    .header__cardbox .header__cardbox__card {
+        width: 493px;
+    }
+    .header__legal {
+        padding: 340px 25px 405px 19px;
+    }
+    .header__symbol {
+        background-image: url(../image/Symbol.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 870px;
+    }
+    .main__team {
+        padding: 0;
+        height: 298px;
+        img {
+            width: 400px;
+        }
+    }
+    .main__team__quotes {
+        width: 1140px;
+    }
+    .main__team__quotes__text {
+        br:first-child {
+            display: none;
+        }
+    }
+    .main__imagebox {
+        width: 1720px;
+        height: 430px;
+        margin: 0 auto 60px auto;
+        border-radius: 12px;
+        img {
+            width: 430px;
+        }  
+    }
+    .main__cardbox__card .main__cardbox__card__fix-size {
+        width: 453px;
+        margin: 0 auto;
+    }
+    .main__cardbox__card {
+        width: 513px;
+        height: 430px;
+        p {
+            width: auto;
+            br {
+                display: inline;
+            }
+        }
+    }
+    .main__cardbox__card__image img {
+        width: 513px;
+        position: absolute;
+        top: -50px;
+    }
+    .main__cardbox__card__image {
+        margin-bottom: 30px;
+        height: 200px;
+        overflow: hidden;
+        position: relative;
+    }
+    .header__cardbox .header__cardbox__card .header__cardbox__card__h {
+        width: 380px;
+    }
+}
+@media (max-width:1440px) {
+    .fix-size {
+        max-width: 904px;
+    }
+    .main__team__quotes {
+        width: auto;
+    }
+    .header__consistent__row__text {
+        width: 405px;
+    }
+
+    .main__team{
+        height: auto;
+    }
+    .header__cardbox .header__cardbox__card {
+        width: 261px;
+        height: 400px;
+    }
+    .main__imagebox {
+        margin: 0 auto;
+        width: 1024px;
+    }
+    .main__team__image {
+        margin-right: 30px;
+        width: 1240px;
+        overflow: hidden;
+        img {
+            position: relative;
+            height: 528px;
+            left: -60px;
+        }
+    }
+    .main__team .main__team__image img {
+        width: 528px;
+    }
+    .main__imagebox {
+        border-radius: 0;
+        overflow: hidden;
+        img {
+            width: 256px;
+        }
+    }
+
+    .main__cardbox__card__image {
+        margin-bottom: 0;
+        img {
+            left: -25px;
+            width: 330px;
+            position: absolute;
+        }
+    }
+
+    .main__cardbox__card__equity {
+        width: auto;
+    }
+    .main__cardbox__card .main__cardbox__card__fix-size {
+        width: 221px;
+    }
+    .main__cardbox__card {
+        width: 281px;
+        height: 556px;
+    }
+    .header__cardbox .header__cardbox__card .header__cardbox__card__h {
+        width: 240px;
+    }
+}
+
+@media (max-width:1024px) {
+    .fix-size {
+        max-width: 648px;
+    }
+    .header__hlegal {
+        padding-top: 35px;
+    }
+    .header__hlegal__contacts__list {
+        justify-content: start;
+        position: relative;
+        left: -170px;
+        &:first-child {
+            padding-bottom: 100px;
+        }
+    }
+    .list__second {
+        .header__hlegal__contacts__listbox:first-child {
+            margin-left: 0;
+        }
+    }
+    .header__symbol {
+        background-image: url(../image/Symbol.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 890px;
+    }
+    .header__legal {
+        padding: 288px 162px 410px 0px;
+    }
+    .header__consistent .hr-line {
+        width: 648px;
+        height: 4px;
+        margin-bottom: 60px;
+    }
+    .header__consistent {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    .header {
+        overflow: hidden;
+    }
+    .header__consistent .header__consistent__row__listbox {
+        list-style: none;
+        padding: 15px 0;
+        width: 640px;
+        display: -webkit-box;
+    }
+    .header__consistent .header__consistent__row__list {
+        margin-right: 40px;
+    }
+    .header__consistent__row__text {
+        width: 648px;
+    }
+    .header__cardbox .header__cardbox__card {
+        width: 290px;
+        height: 400px;
+    }
+    .header__cardbox .header__cardbox__card .header__cardbox__card__h {
+        width: auto;
+    }
+    .main__team {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .main__imagebox {
+        margin:auto;
+        width: auto;
+    }
+    .main__team__image {
+        height: 500px;
+        margin: 0 auto;
+    }
+    .main__team .main__team__image img {
+        width: 648px;
+        height: auto;
+        left: 0px;
+        top: -90px;
+    }
+    .main__team__quotes {
+        width: auto;
+        padding: 30px;
+    }
+    .main__cardbox__card__image img {
+        left: -25px;
+        width: auto;
+        top: 0px;
+        height: 204px;
+        position: relative;
+    }
+    .main__cardbox__card {
+        width: 309px;
+    }
+    .main__cardbox {
+        flex-wrap: wrap;
+    }
+    .main__cardbox__card__image {
+        margin-bottom: 30px;
+    }
+    .main__cardbox__card .main__cardbox__card__fix-size {
+        width: 249px;
+    }
+    .main__card__people {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 648px;
+        height: auto;
+        img {
+            top: -90px;
+            height: auto;
+            width: 648px;
+        }
+        .main__cardbox__card__fix-size {
+            width: 588px;
+            padding-bottom: 30px;
+        }
+    }
+    .footer__contacts__adress__map {
+        img {
+            margin: 0 10px;
+        }
+    }
+}
+
+@media (max-width:648px) {
+    .fix-size {
+        max-width: 315px;
+    }
+    .second__box__hover {
+        display: none;
+    }
+    .header__hlegal__contacts__list {
+        left: 0;
+    }
+    .header__hlegal__contacts__list:first-child {
+        padding: 10px 15px;
+    }
+    .header__hlegal {
+        padding-top: 0;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 60px;
+    }
+    .header__symbol {
+        background-size: 523px;
+    }
+    .header__hlegal__contacts {
+        margin-bottom: 15px;
+        display: none;
+    }
+    .header__hlegal__contacts__mobile {
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        background: rgba(245, 245, 250, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .first__box__hover {
+        justify-content: space-between;
+        li {
+            display: flex;
+            &:last-child {
+                display: none;
+            }
+        }
+        img {
+            display: none;
+        }
+        .header__hlegal__contacts__listbox__adress {
+            display: none;
+        }
+    }
+    .header__hlegal {
+        align-items: start;
+        flex-direction: unset;
+        margin-left: -12px;
+    }
+    .header__hlegal__image {
+        img {
+            width: 69px;
+        }
+    }
+    .header__legal {
+        padding: 140px 0px 170px 0px;
+        width: 320px;
+    }
+    .header__scroll {
+        margin-bottom: 0;
+    }
+    .header__consistent .hr-line {
+        width: 315px;
+        margin-bottom: 30px;
+    }
+    .header__consistent .header__consistent__row__listbox {
+        position: relative;
+        left: 160px;
+        margin-bottom: -20px;
+        li {
+            font-size: 30px;
+        }
+    }
+    .header__consistent__row__bigtext {
+        font-size: 20px;
+    }
+    .header__consistent__row__text {
+        width: 301px;
+    }
+    .header__consistent {
+        margin-bottom: 30px;
+    }
+    .header__what {
+        font-size: 30px;
+    }
+    .header__cardbox {
+        padding: 0;
+    }
+    .header__cardbox .header__cardbox__card {
+        width: 316px;
+        height: auto;
+        &:last-child {
+            margin-bottom: 60px;
+        }
+    }
+    .main__team .main__team__image img {
+        width: auto;
+        height: 500px;
+        left: -90px;
+        top: 0;
+    }
+    .main__team__quotes .main__team__quotes__text {
+        font-size: 30px;
+    }
+    .main__team__quotes__text {
+        br {
+            display: none;
+        }
+    }
+    .main__imagebox img {
+        width: 364px;
+    }
+    .main__what {
+        font-size: 30px;
+        width: 270px;
+        line-height: 37px;
+    }
+    .main__cardbox__card {
+        width: 315px;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .main__cardbox__card__text {
+        padding-bottom: 30px;
+    }
+    .main__cardbox__card .main__cardbox__card__fix-size {
+        width: 249px;
+    }
+    .main__card__people .main__cardbox__card__fix-size {
+        padding-bottom: 0;
+    }
+    .main__card__people img {
+        top: 0;
+        width: auto;
+        height: 204px;
+    }
+    .main__cardbox {
+        margin-bottom: 0;
+    }
+    .footer__contacts {
+        .footer__dot {
+            display: none;
+        }
+    }
+    .footer__contacts__adress {
+        flex-direction: column;
+    }
+    .footer__contacts__adress__map {
+        flex-direction: column;
+    }
+    .footer__contacts__links {
+        flex-direction: column;
+        height: 98px;
+        justify-content: space-between;
+        margin-bottom: 35px;
+    }
+    .header__hlegal__image__mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 328px;
+        p {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-right: 156px;
+        }
+        svg:hover {
+            background: #e6e6f091;
+            border-radius: 8px;
+            circle {
+                stroke: #F0145A;
+            }
+            path {
+                stroke: #F0145A;
+            }
+        }
+    }
+    .footer__contacts__adress__company {
+        position: relative;
+        bottom: -140px;
+    }
+    .footer__contacts__adress {
+        margin-bottom: 0;
+    }
+    .footer__contacts__adress__map__city {
+        margin-bottom: 10px;
+    }
+    .main__imagebox {
+        height: 728px;
+        overflow: hidden;
+    }
+    .popup__content {
+        width: 396px;
+    }
+    .popup__form__textarea {
+        width: auto;
+    }
+    .popup__content {
+        border-radius: 0;
+        height: 670px;
+    }
+    .popup__form__h {
+        width: 310px;
+    }
+}
